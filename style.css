@@ -16,5 +16,18 @@ text-align: center;
 width: 100%;
   
 }
+/* Style the home buttons*/
+.home-buttons  {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+.home-buttons .btn {
+  padding: 10px 20px;
+  transition: 0.3s;
 
-.home-buttons {
+}
+
+.home-buttons .btn:hover {
+  transform: translateY(-2px);
+}
