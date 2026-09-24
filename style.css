@@ -6,52 +6,5 @@ body {
   color: #333;
 }
 
-/* Style the footer */
-.footer {
-  background-color: #222222;
-  color: white;
-padding: 20px 0;
-margin-top: 40px;
-text-align: center;
-width: 100%;
-}
-
-.footer p {
-  margin: 0;
-}
 
 
-
-/*style the home buttons*/
-.home-buttons  {
-  margin-top: 25px;
-  display: flex;
-  gap: 15px;
-}
-/*added a transition to make the hover feel smooth*/
-.home-buttons .btn {
-  padding: 10px 20px;
-  transition: 0.3s;
-
-}
-/*moves the button up two pixels when hovered above*/
-.home-buttons .btn:hover {
-  transform: translateY(-2px);
-}
- 
-/*styles my name*/
-.home-name {
-  font-size: 2.5rem;
-  font-weight: 700;
-}
-
-/*styles the image in my homepage*/
-.home-image {
-  max-width: 100%;
-  height: auto;
-  border-radius: 50px;
-  border: 1px solid black;
-} 
-.home-content {
-  padding-top: 40px;
-}
